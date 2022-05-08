@@ -1,0 +1,26 @@
+.button {
+  margin: 0;
+  padding: 0;
+  border: none;
+
+  position: absolute;
+  top: 50px;
+  right: -20px;
+
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+.button:hover {
+  background: tomato;
+  color: rgb(10, 4, 4);
+}
+
+.reversed svg {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,12 @@
+.item {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+.item svg {
+  margin-right: 20px;
+}
+.item:hover svg,
+.item:focus svg {
+  color: tomato;
+}
